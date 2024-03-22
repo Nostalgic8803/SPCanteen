@@ -101,7 +101,7 @@
           </div>
         </div>
         <div class="flex flex-col items-center mt-3" style="color: white;">
-          <a href="history">
+          <a href="emptyorder">
             <i class="fas fa-history text-2xl"></i>
           </a>
           <div>

@@ -21,6 +21,7 @@
             <br> The Canteen Ordering System is committed to providing you with a seamless and satisfying experience. </span>
         </div>
       </div>
+      <!-- nav -->
       <div class="grid grid-cols-5 h-20 bg-red-800 mt-auto fixed bottom-0 w-full" style="color: white;">
         <div class="flex flex-col items-center mt-3">
           <i class="fas fa-bars text-2xl"></i>
@@ -45,7 +46,7 @@
           </div>
         </div>
         <div class="flex flex-col items-center mt-3" style="color: white;">
-          <a href="history">
+          <a href="emptyhistory">
             <i class="fas fa-history text-2xl"></i>
           </a>
           <div>

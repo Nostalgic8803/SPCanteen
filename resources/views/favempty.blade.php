@@ -30,7 +30,7 @@
             </div>
           </div>
           <div class="flex flex-col items-center mt-3" style="color: white;">
-            <a href="order">
+            <a href="emptyorder">
               <i class="fas fa-clipboard-list text-2xl"></i>
             </a>
             <div>
@@ -38,7 +38,7 @@
             </div>
           </div>
           <div class="flex flex-col items-center mt-3" style="color: white;">
-            <a href="history">
+            <a href="emptyhistory">
               <i class="fas fa-history text-2xl"></i>
             </a>
             <div>

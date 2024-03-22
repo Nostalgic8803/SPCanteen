@@ -48,7 +48,7 @@
       </div>
       <div class="bg-red-800 w-16 h-16 rounded-full ml-10" style="margin-top: 40px;">
         <div class="flex flex-row">
-          <a class="flex flex-row" href="#">
+          <a class="flex flex-row" href="loginpage">
             <i class="fa-solid fa-right-from-bracket text-4xl" style="margin: 12px 0 0 14px; color: white;"></i>
             <span class="text-2xl font-semibold" style="color: black; margin:  14px 0 0 28px;">Logout</span>
           </a>
