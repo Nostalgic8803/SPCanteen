@@ -20,9 +20,9 @@
         <div class="box2">
             <h4>Enter Email Adress</h4>
             <input type="text" id="email" placeholder="example@example.com">
-            <button id="send">SEND</button>
+            <button onclick="document.location='loginpage'" id="send">SEND</button>
             <p>or</p>
-            <button id="signUp">SIGN UP</button>
+            <button onclick="document.location='registerpage'" id="signUp">SIGN UP</button>
         </div>
     </div>
 </body>

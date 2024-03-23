@@ -41,8 +41,8 @@
             </div>
         </div>
         <div class="box3">
-            <button class="loginButton">Register</button>
-            <p>Already have an account? <a href="" id="register">Login</a></p>
+            <button onclick="document.location='setupprofile'" class="loginButton">Register</button>
+            <p>Already have an account? <a href="loginpage" id="register">Login</a></p>
         </div>
     </div>
 </body>

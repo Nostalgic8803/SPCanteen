@@ -1,14 +1,6 @@
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Profile</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="{{asset('css/addproduct.css')}}">
-</head>
-<body>
+@extends('layouts.addproduct')
+
+@section('content') 
   <center>
     <div class="container-shadow">
       <div class="center-icon">
@@ -53,15 +45,19 @@
     </div>
 
     <div class="floating-container">
-<center><h2>Add Product</h2><br>
+<center><br>
         <form action="#">
-        <label for="image">Product Image:</label><br><br>
-        <input type="file" id="image" name="image"><br><br>
-            <label for="name">Product Name:</label><br> 
-            <input type="text" id="name" name="name"><br>
-            <label for="price">Price:</label><br>
-            <input type="text" id="price" name="price"><br>
-            <label for="category">Category:</label><br>
+        <div class="containerbox ">
+        <label for="image"><br><br>
+    <input type="file" id="image" name="image">
+  </label>
+  <div class="background-image"></div>
+</div>
+            <label for="name" style="margin-right:60px; font-weight:bold;">Product Name: 
+            <input type="text" id="name" name="name"><br><br>
+            <label for="price">Product Price:
+            <input type="text" id="price" placeholder="₱" name="price"><br><br>
+            <label for="category"style="margin-right:80px; font-weight:bold;">Select Category:
             <select id="category" name="category">
                 <option value="1">Breakfast</option>
                 <option value="2">Lunch</option>
@@ -70,10 +66,10 @@
                 <option value="5">Dinner</option>
                 <option value="6">Dessert</option>
                 <option value="7">Healthy</option>
-            </select><br><br>       
-        <input type="submit" value="Add Product">
+            </select></label><br><br>       
+            <button type="button" onclick="window.location.href='superproductlist'" style="margin-left: 60px; width: 80px; font-size: 17px; height: 30px; background-color: maroon; border: none; border-radius: 7px; color:white;">Save</button>
 
-            <a href="superproductlist"><button type="button">Cancel</button></a>
+            <button type="button" onclick="window.location.href='superproductlist'" style="margin-left: 4px; width: 85px; font-size: 17px; height: 30px; background-color: red; border: none; border-radius: 7px; color:white;">Cancel</button>
             </form>
-</div>  
-</body>
+</div>
+@endsection

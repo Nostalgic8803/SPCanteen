@@ -19,3 +19,7 @@ input {
   border-color: #737271;
   border: 1px solid;
 }
+
+#status_faculty, #status_student {
+      accent-color: maroon;
+  }

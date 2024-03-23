@@ -32,12 +32,12 @@
                     <i class="fa-solid fa-eye"></i>
                 </div>
             </div>
-            <a href="" id="forgotPassword">Forgot password?</a>
+            <a href="forgotpassword" id="forgotPassword">Forgot password?</a>
         </div>
         <div class="box3">
             <a href="landing">
-            <button class="loginButton">Login</button>
-            <p>Don't have an account? <a href="" id="register">Register</a></p>
+            <button onclick="document.location='landing'" class="loginButton">Login</button>
+            <p>Don't have an account? <a href="registerpage" id="register">Register</a></p>
         </div>
     </div>
 </body>

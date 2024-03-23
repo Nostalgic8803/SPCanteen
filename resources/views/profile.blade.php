@@ -25,7 +25,7 @@
       <div class="bg-red-800 w-16 h-16 rounded-full mt-40 ml-10">
         <div class="flex flex-row">
           <a class="flex flex-row" href="landing">
-            <i class="fa-solid fa-bars text-4xl" style="margin: 11px 0 0 16px; color: white;"></i>
+            <i class="fa-solid fa-bars text-3xl" style="margin: 12px 0 0 19px; color: white;"></i>
             <span class="text-2xl font-semibold" style="color: black; margin:  14px 0 0 28px;">Dashboard</span>
           </a>
         </div>
@@ -33,7 +33,7 @@
       <div class="bg-red-800 w-16 h-16 rounded-full ml-10" style="margin-top: 40px;">
         <div class="flex flex-row">
           <a class="flex flex-row" href="history">
-            <i class="fa-regular fa-clock text-4xl" style="margin: 12px 0 0 14px; color: white;"></i>
+            <i class="fa-regular fa-clock text-3xl" style="margin: 13px 0 0 17px; color: white;"></i>
             <span class="text-2xl font-semibold" style="color: black; margin:  14px 0 0 28px;">History</span>
           </a>
         </div>
@@ -41,7 +41,7 @@
       <div class="bg-red-800 w-16 h-16 rounded-full ml-10" style="margin-top: 40px;">
         <div class="flex flex-row">
           <a class="flex flex-row" href="about">
-            <i class="fa-solid fa-circle-exclamation text-4xl" style="margin: 12px 0 0 14px; color: white;"></i>
+            <i class="fa-solid fa-circle-exclamation text-3xl" style="margin: 13px 0 0 17px; color: white;"></i>
             <span class="text-2xl font-semibold" style="color: black; margin:  14px 0 0 28px;">About</span>
           </a>
         </div>
@@ -49,7 +49,7 @@
       <div class="bg-red-800 w-16 h-16 rounded-full ml-10" style="margin-top: 40px;">
         <div class="flex flex-row">
           <a class="flex flex-row" href="loginpage">
-            <i class="fa-solid fa-right-from-bracket text-4xl" style="margin: 12px 0 0 14px; color: white;"></i>
+            <i class="fa-solid fa-right-from-bracket text-3xl" style="margin: 12px 0 0 18px; color: white;"></i>
             <span class="text-2xl font-semibold" style="color: black; margin:  14px 0 0 28px;">Logout</span>
           </a>
         </div>
@@ -64,7 +64,7 @@
           </div>
         </div>
         <div class="flex flex-col items-center mt-3" style="color: white;">
-          <a href="favorite">
+          <a href="favempty">
             <i class="fas fa-heart text-2xl"></i>
           </a>
           <div>
@@ -72,7 +72,7 @@
           </div>
         </div>
         <div class="flex flex-col items-center mt-3" style="color: white;">
-          <a href="order">
+          <a href="emptyorder">
             <i class="fas fa-clipboard-list text-2xl"></i>
           </a>
           <div>

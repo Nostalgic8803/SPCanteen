@@ -118,11 +118,13 @@
         <div class="font-regular">
           <i class="fas fa-clock ml-5 text-xl" style="color: green;"></i>
           <span style="color: green;">10 mins</span>
-          <i class="fas fa-cart-plus mt-1 text-2xl ml-48" style="color: maroon;"></i>
-          <span class="text-2xl">₱10</span>
+          <a href="landing5">
+            <i class="fas fa-cart-plus mt-1 text-2xl ml-48" style="color: maroon;"></i>
+            <span class="text-2xl">₱50</span>
+          </a>
         </div>
         <div class="font-bold">
-          <h1 class="font-bold text-2xl ml-5 mt-2 mb-4">Special Turon</h1>
+          <h1 class="font-bold text-2xl ml-5 mt-2 mb-4">Chicken Burger</h1>
         </div>
       </div>
       <div class="flex flex-col bg-white mt-10 ml-4 mr-5 w-96">
@@ -135,8 +137,8 @@
         <div class="font-regular">
           <i class="fas fa-clock ml-5 text-xl" style="color: green;"></i>
           <span style="color: green;">10 mins</span>
-          <i class="fas fa-cart-plus mt-1 text-2xl ml-48" style="color: maroon;"></i>
-          <span class="text-2xl">₱10</span>
+          <i class="fas fa-cart-plus mt-1 text-2xl ml-44" style="color: maroon;"></i>
+          <span class="text-2xl">₱100</span>
         </div>
         <div class="font-bold">
           <h1 class="font-bold text-2xl ml-5 mt-2 mb-4">Pork Sisig w/ Egg & Rice</h1>
@@ -152,8 +154,8 @@
         <div class="font-regular">
           <i class="fas fa-clock ml-5 text-xl" style="color: green;"></i>
           <span style="color: green;">10 mins</span>
-          <i class="fas fa-cart-plus mt-1 text-2xl ml-48" style="color: maroon;"></i>
-          <span class="text-2xl">₱10</span>
+          <i class="fas fa-cart-plus mt-1 text-2xl ml-44" style="color: maroon;"></i>
+          <span class="text-2xl">₱100</span>
         </div>
         <div class="font-bold">
           <h1 class="font-bold text-2xl ml-5 mt-2 mb-4">Leche Flan</h1>
@@ -170,10 +172,27 @@
           <i class="fas fa-clock ml-5 text-xl" style="color: green;"></i>
           <span style="color: green;">10 mins</span>
           <i class="fas fa-cart-plus mt-1 text-2xl ml-48" style="color: maroon;"></i>
-          <span class="text-2xl">₱10</span>
+          <span class="text-2xl">₱30</span>
         </div>
         <div class="font-bold">
           <h1 class="font-bold text-2xl ml-5 mt-2 mb-4">Creamy Coffee</h1>
+        </div>
+      </div>
+      <div class="flex flex-col bg-white mt-10 ml-4 mr-5 w-96">
+        <div class="flex flex-col items-center mb-3 mt-5">
+          <img style="width: 350px; height: 180px;" src="https://leitesculinaria.com/wp-content/uploads/2021/05/perfect-hot-dog-fp.jpg" alt="">
+          <div class="absolute bg-white w-10 h-10 rounded-full" style="margin: 8px 0 0 18em;">
+            <i class="fas fa-heart text-2xl" style="color: lightgray; margin: 5px 0 0 8px;"></i>
+          </div>
+        </div>
+        <div class="font-regular">
+          <i class="fas fa-clock ml-5 text-xl" style="color: green;"></i>
+          <span style="color: green;">10 mins</span>
+          <i class="fas fa-cart-plus mt-1 text-2xl ml-48" style="color: maroon;"></i>
+          <span class="text-2xl">₱10</span>
+        </div>
+        <div class="font-bold">
+          <h1 class="font-bold text-2xl ml-5 mt-2 mb-4">Classic Hotdog</h1>
         </div>
       </div>
       <div class="grid grid-cols-5 h-20 bg-red-800 mt-auto fixed bottom-0 w-full" style="color: lightgreen;">

@@ -79,6 +79,22 @@ Route::get('/landing4', function () {
     return view('landing4');
 });
 
+Route::get('/landing5', function () {
+    return view('landing5');
+});
+
+Route::get('/landing6', function () {
+    return view('landing6');
+});
+
+Route::get('/landing7', function () {
+    return view('landing7');
+});
+
+Route::get('/landing8', function () {
+    return view('landing8');
+});
+
 Route::get('/category1', function () {
     return view('category1');
 });
@@ -123,6 +139,10 @@ Route::get('/order', function () {
     return view('order');
 });
 
+Route::get('/seeorder', function () {
+    return view('seeorder');
+});
+
 Route::get('/payment', function () {
     return view('payment');
 });
@@ -131,6 +151,17 @@ Route::get('/gcash', function () {
     return view('gcash');
 });
 
+Route::get('/schoolfee', function () {
+    return view('schoolfee');
+});
+
+Route::get('/cashonhand', function () {
+    return view('cashonhand');
+});
+
+Route::get('/qrcode', function () {
+    return view('qrcode');
+});
 
 Route::get('history', function () {
     return view('history');

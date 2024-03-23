@@ -5,7 +5,7 @@
         <br><br>
 
         <div class="icon-bar">
-         <a class="active" href="admin"><span class="fa fa-dashboard "><class style="color: black; margin-left:26px;">Dashboard</span>
+         <a class="active" href="admin"><span class="fa fa-dashboard "><classz style="color: black; margin-left:26px;">Dashboard</span>
        </a><br> 
          <a class="active" href="productlist"><span class="far fa-plus-square"><class style="color: black; margin-left:26px;">Add Products</span>
        </a><br>

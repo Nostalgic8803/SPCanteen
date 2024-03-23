@@ -26,11 +26,6 @@ body{
   font-size: 18px; /* Adjusted font size */
   }
   
-  .icon-bar a:hover {
-  background-color: maroon;
-  border-radius: 10px;
-  }
-  
   .page-title {
   font-size: 45px;
   font-weight: 600;

@@ -28,7 +28,7 @@
       </div>
       <div class="flex flex-col bg-white mt-4 ml-4 mr-5 w-96">
         <div class="flex flex-col items-center mb-3 mt-5">
-          <img style="width: 350px; height: 180px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
+          <img style="width: 350px; height: 180px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV1mn8AmFrmldZhG7Lc_uTy-NbSemRXlv0FwYOpQY-Hg&s" alt="">
           <div class="absolute bg-white w-10 h-10 rounded-full" style="margin: 8px 0 0 18em;">
             <i class="fas fa-heart text-2xl" style="color: maroon; margin: 5px 0 0 8px;"></i>
           </div>
@@ -37,15 +37,15 @@
           <i class="fas fa-clock ml-5 text-xl" style="color: green;"></i>
           <span style="color: green;">10 mins</span>
           <i class="fas fa-cart-plus mt-1 text-2xl ml-48" style="color: maroon;"></i>
-          <span class="text-2xl">₱10</span>
+          <span class="text-2xl">₱50</span>
         </div>
         <div class="font-bold">
-          <h1 class="font-bold text-2xl ml-5 mt-2 mb-4">Special Turon</h1>
+          <h1 class="font-bold text-2xl ml-5 mt-2 mb-4">Chicken Burger</h1>
         </div>
       </div>
       <div class="flex flex-col bg-white mt-10 ml-4 mr-5 w-96">
         <div class="flex flex-col items-center mb-3 mt-5">
-          <img style="width: 350px; height: 180px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
+          <img style="width: 350px; height: 180px;" src="https://cdn.sanity.io/images/f3knbc2s/production/1e0058379c6c2c9b60fa9ac91638d80d7a5135fd-1024x605.jpg" alt="">
           <div class="absolute bg-white w-10 h-10 rounded-full" style="margin: 8px 0 0 18em;">
             <i class="fas fa-heart text-2xl" style="color: maroon; margin: 5px 0 0 8px;"></i>
           </div>
@@ -53,16 +53,16 @@
         <div class="font-regular">
           <i class="fas fa-clock ml-5 text-xl" style="color: green;"></i>
           <span style="color: green;">10 mins</span>
-          <i class="fas fa-cart-plus mt-1 text-2xl ml-48" style="color: maroon;"></i>
-          <span class="text-2xl">₱10</span>
+          <i class="fas fa-cart-plus mt-1 text-2xl ml-44" style="color: maroon;"></i>
+          <span class="text-2xl">₱100</span>
         </div>
         <div class="font-bold">
-          <h1 class="font-bold text-2xl ml-5 mt-2 mb-4">Special Turon</h1>
+          <h1 class="font-bold text-2xl ml-5 mt-2 mb-4">Pork Sisig w/ Egg & Rice</h1>
         </div>
       </div>
       <div class="flex flex-col bg-white mt-10 ml-4 mr-5 w-96">
         <div class="flex flex-col items-center mb-3 mt-5">
-          <img style="width: 350px; height: 180px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
+          <img style="width: 350px; height: 180px;" src="https://sundeeskitchen.files.wordpress.com/2020/10/pancake-2.jpg?w=1024" alt="">
           <div class="absolute bg-white w-10 h-10 rounded-full" style="margin: 8px 0 0 18em;">
             <i class="fas fa-heart text-2xl" style="color: maroon; margin: 5px 0 0 8px;"></i>
           </div>
@@ -71,10 +71,10 @@
           <i class="fas fa-clock ml-5 text-xl" style="color: green;"></i>
           <span style="color: green;">10 mins</span>
           <i class="fas fa-cart-plus mt-1 text-2xl ml-48" style="color: maroon;"></i>
-          <span class="text-2xl">₱10</span>
+          <span class="text-2xl">₱100</span>
         </div>
         <div class="font-bold">
-          <h1 class="font-bold text-2xl ml-5 mt-2 mb-4">Special Turon</h1>
+          <h1 class="font-bold text-2xl ml-5 mt-2 mb-4">Leche Flan</h1>
         </div>
       </div>
       <div class="grid grid-cols-5 h-20 bg-red-800 mt-auto fixed bottom-0 w-full" style="color: white;">
@@ -93,7 +93,7 @@
           </div>
         </div>
         <div class="flex flex-col items-center mt-3" style="color: white;">
-          <a href="order">
+          <a href="emptyorder">
             <i class="fas fa-clipboard-list text-2xl"></i>
           </a>
           <div>
@@ -101,7 +101,7 @@
           </div>
         </div>
         <div class="flex flex-col items-center mt-3" style="color: white;">
-          <a href="emptyorder">
+          <a href="emptyhistory">
             <i class="fas fa-history text-2xl"></i>
           </a>
           <div>

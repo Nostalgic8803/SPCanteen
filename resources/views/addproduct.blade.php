@@ -6,8 +6,7 @@
     <div class="container-shadow">
       <div class="center-icon">
         <img src="https://i.ibb.co/7QLKBSz/423062764-1342544113808335-7405620093325838006-n-removebg-preview.png" alt="423062764-1342544113808335-7405620093325838006-n-removebg-preview" style="margin-top:25px; width:220px;height:180px;margin-right:10px;">
-        <br>
-        <br>
+        <br><br>
         <div class="icon-bar">
           <a class="active" href="admin">
             <span class="fa fa-dashboard ">
@@ -73,15 +72,19 @@
     </div>
 
     <div class="floating-container">
-<center><h2>Add Product</h2><br>
+<center><br>
         <form action="#">
-        <label for="image">Product Image:</label><br><br>
-        <input type="file" id="image" name="image"><br><br>
-            <label for="name">Product Name:</label><br> 
-            <input type="text" id="name" name="name"><br>
-            <label for="price">Price:</label><br>
-            <input type="text" id="price" name="price"><br>
-            <label for="category">Category:</label><br>
+        <div class="containerbox ">
+        <label for="image"><br><br>
+    <input type="file" id="image" name="image">
+  </label>
+  <div class="background-image"></div>
+</div>
+            <label for="name" style="margin-right:60px; font-weight:bold;">Product Name: 
+            <input type="text" id="name" name="name"><br><br>
+            <label for="price">Product Price:
+            <input type="text" id="price" placeholder="₱" name="price"><br><br>
+            <label for="category"style="margin-right:80px; font-weight:bold;">Select Category:
             <select id="category" name="category">
                 <option value="1">Breakfast</option>
                 <option value="2">Lunch</option>
@@ -90,10 +93,10 @@
                 <option value="5">Dinner</option>
                 <option value="6">Dessert</option>
                 <option value="7">Healthy</option>
-            </select><br><br>       
-        <input type="submit" value="Add Product">
+            </select></label><br><br>       
+            <button type="button" onclick="window.location.href='productlist'" style="margin-left: 60px; width: 80px; font-size: 17px; height: 30px; background-color: maroon; border: none; border-radius: 7px; color:white;">Save</button>
 
-            <a href="productlist"><button type="button">Cancel</button></a>
+            <button type="button" onclick="window.location.href='productlist'" style="margin-left: 4px; width: 85px; font-size: 17px; height: 30px; background-color: red; border: none; border-radius: 7px; color:white;">Cancel</button>
             </form>
-</div>  
+</div>
 @endsection

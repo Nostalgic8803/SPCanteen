@@ -1,6 +1,5 @@
 
 
-   
 <center><div class="container shadow" style="width: 305px; height: 680px; background-color: white;">
    <div class="center-icon">   
     <img src="https://i.ibb.co/7QLKBSz/423062764-1342544113808335-7405620093325838006-n-removebg-preview.png" alt="423062764-1342544113808335-7405620093325838006-n-removebg-preview" style="width:220px;height:180px;margin-right:10px;"><br><br>

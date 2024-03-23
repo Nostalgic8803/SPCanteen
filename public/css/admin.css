@@ -26,15 +26,15 @@ color: black;
 font-size: 18px; /* Adjusted font size */
 }
 
-.icon-bar a:hover {
-background-color: maroon;
-border-radius: 10px;
+.container1 {
+  max-width: 1200px;
+  padding: 10px;
 }
 
 .container {
-max-width: 1200px;
-padding: 10px;
-}
+  max-width: 1200px;
+  padding: 10px;
+  }
 
 .page-title {
 font-size: 45px;
@@ -49,21 +49,23 @@ margin-top: 1px;
   left: 1000px;
   display: flex;
   align-items: center;
-}
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;}
 
 .search-bar input {
   padding: 10px;
-  border: 0.50px solid #000000;
-  border-radius: 10px;
+  border: none;
   width: 290px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .search-bar button {
-  background-color: gray;
+  background-color: #D9D9D9;
   border: none;
   padding: 12px;
-  border-radius: 5px;
   cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .add-product-btn {
@@ -76,9 +78,7 @@ margin-top: 1px;
   margin-bottom: 550px;
 }
 
-.add-product-btn:hover {
-  background-color: #555;
-}
+
 
 .container-shadow{
   width: 305px;

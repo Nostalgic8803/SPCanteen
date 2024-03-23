@@ -22,7 +22,7 @@
         
         <h2><b>Upload Your Profile</b></h2>
 
-        <form action="" method="">
+        <form action="landing" method="">
             <div class="radio-btn">
                 <div class="student">
                     <input type="radio" id="status_student" name="status" value="Student">
@@ -34,7 +34,7 @@
                 </div>
             </div>
             <p class="bottom-txt">If done setting up your account, please click the button below to continue.</p>
-            <button type="submit" class="upload-btn">Done</button>
+            <input type="submit" class="upload-btn">
         </form>
     </div>
 </body>

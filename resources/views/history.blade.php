@@ -9,216 +9,218 @@
   </head>
   <body class="bg-zinc-300">
     <div class="min-h-screen">
-    <div class="flex flex-col">
+      <div class="flex flex-col">
         <span class="font-bold text-3xl mt-20 ml-24">ORDER HISTORY</span>
         <div class="flex flex-col mt-6 ml-4">
-        <span class="text-xl font-bold">Active Orders</span>
-        <div class="flex flex-row overflow-x-auto">
-        <div class="rounded-lg bg-white mt-4 pr-4" style="width: 340px; height: 160px;">
-            <div class="flex flex-row ">
-        <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
-        <div class="flex flex-col ml-2 mt-4">
-            <span class="text-xl font-semibold">Leche Flan</span>
-            <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
-            <span class="text-2xl font-semibold">₱100</span>
-        </div>
-        </div>
-        <div class="flex flex-row text-center">
-            <div style="background-color: white; color: maroon; margin: 10px 0 0 15px; border: 1px solid maroon; border-radius: 15px; width: 151px; height: 40px;">
-            <button class="font-semibold" style="margin-top: 7px;">Cancel Order</button>
+          <span class="text-xl font-bold">Active Orders</span>
+          <div class="flex flex-row overflow-x-auto">
+            <div class="rounded-lg bg-white mt-4 pr-4" style="width: 340px; height: 160px;">
+              <div class="flex flex-row ">
+                <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV1mn8AmFrmldZhG7Lc_uTy-NbSemRXlv0FwYOpQY-Hg&s" alt="">
+                <div class="flex flex-col ml-2 mt-4">
+                  <span class="text-xl font-semibold">Chicken Burger</span>
+                  <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
+                  <span class="text-2xl font-semibold">₱50</span>
+                </div>
+              </div>
+              <div class="flex flex-row text-center">
+                <div style="background-color: white; color: maroon; margin: 10px 0 0 15px; border: 1px solid maroon; border-radius: 15px; width: 151px; height: 40px;">
+                  <button class="font-semibold" style="margin-top: 7px;">Cancel Order</button>
+                </div>
+                <a href="seeorder">
+                <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 151px; height: 40px;">
+                  <button class="font-semibold" style="margin-top: 7px;">See Order</button>
+                </div>
+                </a>
+              </div>
             </div>
-            <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 151px; height: 40px;">
-            <button class="font-semibold" style="margin-top: 7px;">See Order</button>
+            <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
+              <div class="flex flex-row ">
+                <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://cdn.sanity.io/images/f3knbc2s/production/1e0058379c6c2c9b60fa9ac91638d80d7a5135fd-1024x605.jpg" alt="">
+                <div class="flex flex-col ml-2 mt-4">
+                  <span class="text-xl font-semibold">Pork Sisig</span>
+                  <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
+                  <span class="text-2xl font-semibold">₱100</span>
+                </div>
+              </div>
+              <div class="flex flex-row text-center">
+                <div style="background-color: white; color: maroon; margin: 10px 0 0 15px; border: 1px solid maroon; border-radius: 15px; width: 151px; height: 40px;">
+                  <button class="font-semibold" style="margin-top: 7px;">Cancel Order</button>
+                </div>
+                <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 151px; height: 40px;">
+                  <button class="font-semibold" style="margin-top: 7px;">See Order</button>
+                </div>
+              </div>
             </div>
-        </div>
-        </div>
-        <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
-            <div class="flex flex-row ">
-        <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
-        <div class="flex flex-col ml-2 mt-4">
-            <span class="text-xl font-semibold">Leche Flan</span>
-            <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
-            <span class="text-2xl font-semibold">₱100</span>
-        </div>
-        </div>
-        <div class="flex flex-row text-center">
-            <div style="background-color: white; color: maroon; margin: 10px 0 0 15px; border: 1px solid maroon; border-radius: 15px; width: 151px; height: 40px;">
-            <button class="font-semibold" style="margin-top: 7px;">Cancel Order</button>
+            <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
+              <div class="flex flex-row ">
+                <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://sundeeskitchen.files.wordpress.com/2020/10/pancake-2.jpg?w=1024" alt="">
+                <div class="flex flex-col ml-2 mt-4">
+                  <span class="text-xl font-semibold">Leche Flan</span>
+                  <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
+                  <span class="text-2xl font-semibold">₱100</span>
+                </div>
+              </div>
+              <div class="flex flex-row text-center">
+                <div style="background-color: white; color: maroon; margin: 10px 0 0 15px; border: 1px solid maroon; border-radius: 15px; width: 151px; height: 40px;">
+                  <button class="font-semibold" style="margin-top: 7px;">Cancel Order</button>
+                </div>
+                <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 151px; height: 40px;">
+                  <button class="font-semibold" style="margin-top: 7px;">See Order</button>
+                </div>
+              </div>
             </div>
-            <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 151px; height: 40px;">
-            <button class="font-semibold" style="margin-top: 7px;">See Order</button>
+            <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
+              <div class="flex flex-row ">
+                <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://ideas.ted.com/wp-content/uploads/sites/3/2022/07/FINAL_Coffee.jpg" alt="">
+                <div class="flex flex-col ml-2 mt-4">
+                  <span class="text-xl font-semibold">Creamy Coffee</span>
+                  <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
+                  <span class="text-2xl font-semibold">₱30</span>
+                </div>
+              </div>
+              <div class="flex flex-row text-center">
+                <div style="background-color: white; color: maroon; margin: 10px 0 0 15px; border: 1px solid maroon; border-radius: 15px; width: 151px; height: 40px;">
+                  <button class="font-semibold" style="margin-top: 7px;">Cancel Order</button>
+                </div>
+                <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 151px; height: 40px;">
+                  <button class="font-semibold" style="margin-top: 7px;">See Order</button>
+                </div>
+              </div>
             </div>
-        </div>
-        </div>
-        <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
-            <div class="flex flex-row ">
-        <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
-        <div class="flex flex-col ml-2 mt-4">
-            <span class="text-xl font-semibold">Leche Flan</span>
-            <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
-            <span class="text-2xl font-semibold">₱100</span>
-        </div>
-        </div>
-        <div class="flex flex-row text-center">
-            <div style="background-color: white; color: maroon; margin: 10px 0 0 15px; border: 1px solid maroon; border-radius: 15px; width: 151px; height: 40px;">
-            <button class="font-semibold" style="margin-top: 7px;">Cancel Order</button>
-            </div>
-            <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 151px; height: 40px;">
-            <button class="font-semibold" style="margin-top: 7px;">See Order</button>
-            </div>
-        </div>
-        </div>
-        <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
-            <div class="flex flex-row ">
-        <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
-        <div class="flex flex-col ml-2 mt-4">
-            <span class="text-xl font-semibold">Leche Flan</span>
-            <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
-            <span class="text-2xl font-semibold">₱100</span>
-        </div>
-        </div>
-        <div class="flex flex-row text-center">
-            <div style="background-color: white; color: maroon; margin: 10px 0 0 15px; border: 1px solid maroon; border-radius: 15px; width: 151px; height: 40px;">
-            <button class="font-semibold" style="margin-top: 7px;">Cancel Order</button>
-            </div>
-            <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 151px; height: 40px;">
-            <button class="font-semibold" style="margin-top: 7px;">See Order</button>
-            </div>
-        </div>
-        </div>
-        </div>
+          </div>
         </div>
         <!-- Cancelled Orders -->
         <div class="flex flex-col mt-6 ml-4">
-        <span class="text-xl font-bold">Cancelled Orders</span>
-        <div class="flex flex-row overflow-x-auto">
-        <div class="rounded-lg bg-white mt-4 pr-4" style="width: 340px; height: 160px;">
-            <div class="flex flex-row ">
-        <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
-        <div class="flex flex-col ml-2 mt-4">
-            <span class="text-xl font-semibold">Leche Flan</span>
-            <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
-            <span class="text-2xl font-semibold">₱100</span>
-        </div>
-        </div>
-        <div class="flex flex-row text-center">
-        <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 314px; height: 40px;">
-            <button class="font-semibold" style="margin-top: 7px;">See Order</button>
+          <span class="text-xl font-bold">Cancelled Orders</span>
+          <div class="flex flex-row overflow-x-auto">
+            <div class="rounded-lg bg-white mt-4 pr-4" style="width: 340px; height: 160px;">
+              <div class="flex flex-row ">
+                <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://sundeeskitchen.files.wordpress.com/2020/10/pancake-2.jpg?w=1024" alt="">
+                <div class="flex flex-col ml-2 mt-4">
+                  <span class="text-xl font-semibold">Leche Flan</span>
+                  <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
+                  <span class="text-2xl font-semibold">₱100</span>
+                </div>
+              </div>
+              <div class="flex flex-row text-center">
+                <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 314px; height: 40px;">
+                  <button class="font-semibold" style="margin-top: 7px;">Re-Order</button>
+                </div>
+              </div>
             </div>
-        </div>
-        </div>
-        <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
-            <div class="flex flex-row ">
-        <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
-        <div class="flex flex-col ml-2 mt-4">
-            <span class="text-xl font-semibold">Leche Flan</span>
-            <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
-            <span class="text-2xl font-semibold">₱100</span>
-        </div>
-        </div>
-        <div class="flex flex-row text-center">
-        <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 314px; height: 40px;">
-            <button class="font-semibold" style="margin-top: 7px;">See Order</button>
+            <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
+              <div class="flex flex-row ">
+                <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://ideas.ted.com/wp-content/uploads/sites/3/2022/07/FINAL_Coffee.jpg" alt="">
+                <div class="flex flex-col ml-2 mt-4">
+                  <span class="text-xl font-semibold">Creamy Coffee</span>
+                  <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
+                  <span class="text-2xl font-semibold">₱30</span>
+                </div>
+              </div>
+              <div class="flex flex-row text-center">
+                <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 314px; height: 40px;">
+                  <button class="font-semibold" style="margin-top: 7px;">Re-Order</button>
+                </div>
+              </div>
             </div>
-        </div>
-        </div>
-        <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
-            <div class="flex flex-row ">
-        <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
-        <div class="flex flex-col ml-2 mt-4">
-            <span class="text-xl font-semibold">Leche Flan</span>
-            <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
-            <span class="text-2xl font-semibold">₱100</span>
-        </div>
-        </div>
-        <div class="flex flex-row text-center">
-        <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 314px; height: 40px;">
-            <button class="font-semibold" style="margin-top: 7px;">See Order</button>
+            <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
+              <div class="flex flex-row ">
+                <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
+                <div class="flex flex-col ml-2 mt-4">
+                  <span class="text-xl font-semibold">Leche Flan</span>
+                  <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
+                  <span class="text-2xl font-semibold">₱100</span>
+                </div>
+              </div>
+              <div class="flex flex-row text-center">
+                <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 314px; height: 40px;">
+                  <button class="font-semibold" style="margin-top: 7px;">Re-Order</button>
+                </div>
+              </div>
             </div>
-        </div>
-        </div>
-        <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
-            <div class="flex flex-row ">
-        <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
-        <div class="flex flex-col ml-2 mt-4">
-            <span class="text-xl font-semibold">Leche Flan</span>
-            <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
-            <span class="text-2xl font-semibold">₱100</span>
-        </div>
-        </div>
-        <div class="flex flex-row text-center">
-        <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 314px; height: 40px;">
-            <button class="font-semibold" style="margin-top: 7px;">See Order</button>
+            <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
+              <div class="flex flex-row ">
+                <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
+                <div class="flex flex-col ml-2 mt-4">
+                  <span class="text-xl font-semibold">Leche Flan</span>
+                  <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
+                  <span class="text-2xl font-semibold">₱100</span>
+                </div>
+              </div>
+              <div class="flex flex-row text-center">
+                <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 314px; height: 40px;">
+                  <button class="font-semibold" style="margin-top: 7px;">Re-Order</button>
+                </div>
+              </div>
             </div>
-        </div>
-        </div>
-        </div>
+          </div>
         </div>
         <!-- Completed Orders -->
         <div class="flex flex-col mt-6 ml-4">
-        <span class="text-xl font-bold">Completed Orders</span>
-        <div class="flex flex-row overflow-x-auto">
-        <div class="rounded-lg bg-white mt-4 pr-4" style="width: 340px; height: 160px;">
-            <div class="flex flex-row ">
-        <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
-        <div class="flex flex-col ml-2 mt-4">
-            <span class="text-xl font-semibold">Leche Flan</span>
-            <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
-            <span class="text-2xl font-semibold">₱100</span>
-        </div>
-        </div>
-        <div class="flex flex-row text-center">
-            <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 314px; height: 40px;">
-            <button class="font-semibold" style="margin-top: 7px;">See Order</button>
+          <span class="text-xl font-bold">Completed Orders</span>
+          <div class="flex flex-row overflow-x-auto">
+            <div class="rounded-lg bg-white mt-4 pr-4" style="width: 340px; height: 160px;">
+              <div class="flex flex-row ">
+                <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV1mn8AmFrmldZhG7Lc_uTy-NbSemRXlv0FwYOpQY-Hg&s" alt="">
+                <div class="flex flex-col ml-2 mt-4">
+                  <span class="text-xl font-semibold">Chicken Burger</span>
+                  <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
+                  <span class="text-2xl font-semibold">₱50</span>
+                </div>
+              </div>
+              <div class="flex flex-row text-center">
+                <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 314px; height: 40px;">
+                  <button class="font-semibold" style="margin-top: 7px;">Re-Order</button>
+                </div>
+              </div>
             </div>
-        </div>
-        </div>
-        <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
-            <div class="flex flex-row ">
-        <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
-        <div class="flex flex-col ml-2 mt-4">
-            <span class="text-xl font-semibold">Leche Flan</span>
-            <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
-            <span class="text-2xl font-semibold">₱100</span>
-        </div>
-        </div>
-        <div class="flex flex-row text-center">
-        <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 314px; height: 40px;">
-            <button class="font-semibold" style="margin-top: 7px;">See Order</button>
+            <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
+              <div class="flex flex-row ">
+                <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://cdn.sanity.io/images/f3knbc2s/production/1e0058379c6c2c9b60fa9ac91638d80d7a5135fd-1024x605.jpg" alt="">
+                <div class="flex flex-col ml-2 mt-4">
+                  <span class="text-xl font-semibold">Pork Sisig</span>
+                  <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
+                  <span class="text-2xl font-semibold">₱100</span>
+                </div>
+              </div>
+              <div class="flex flex-row text-center">
+                <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 314px; height: 40px;">
+                  <button class="font-semibold" style="margin-top: 7px;">Re-Order</button>
+                </div>
+              </div>
             </div>
-        </div>
-        </div>
-        <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
-            <div class="flex flex-row ">
-        <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
-        <div class="flex flex-col ml-2 mt-4">
-            <span class="text-xl font-semibold">Leche Flan</span>
-            <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
-            <span class="text-2xl font-semibold">₱100</span>
-        </div>
-        </div>
-        <div class="flex flex-row text-center">
-        <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 314px; height: 40px;">
-            <button class="font-semibold" style="margin-top: 7px;">See Order</button>
+            <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
+              <div class="flex flex-row ">
+                <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
+                <div class="flex flex-col ml-2 mt-4">
+                  <span class="text-xl font-semibold">Leche Flan</span>
+                  <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
+                  <span class="text-2xl font-semibold">₱100</span>
+                </div>
+              </div>
+              <div class="flex flex-row text-center">
+                <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 314px; height: 40px;">
+                  <button class="font-semibold" style="margin-top: 7px;">Re-Order</button>
+                </div>
+              </div>
             </div>
-        </div>
-        </div>
-        <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
-            <div class="flex flex-row ">
-        <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
-        <div class="flex flex-col ml-2 mt-4">
-            <span class="text-xl font-semibold">Leche Flan</span>
-            <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
-            <span class="text-2xl font-semibold">₱100</span>
-        </div>
-        </div>
-        <div class="flex flex-row text-center">
-        <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 314px; height: 40px;">
-            <button class="font-semibold" style="margin-top: 7px;">See Order</button>
+            <div class="rounded-lg bg-white mt-4 ml-4 pr-4" style="width: 340px; height: 160px;">
+              <div class="flex flex-row ">
+                <img class="ml-4 mt-4 rounded-xl" style="width: 110px; height: 80px;" src="https://www.bitesized.ph/wp-content/uploads/2019/08/7A43D94E-488B-4A9C-B9EE-CA0D047C38E4.jpeg" alt="">
+                <div class="flex flex-col ml-2 mt-4">
+                  <span class="text-xl font-semibold">Leche Flan</span>
+                  <span class="text-sm font-bold text-neutral-400">Mar 22, 2024</span>
+                  <span class="text-2xl font-semibold">₱100</span>
+                </div>
+              </div>
+              <div class="flex flex-row text-center">
+                <div style="background-color: maroon; color: white; border-radius: 10px; margin: 10px 0 0 10px; width: 314px; height: 40px;">
+                  <button class="font-semibold" style="margin-top: 7px;">Re-Order</button>
+                </div>
+              </div>
             </div>
-        </div>
-        </div>
-        </div>
+          </div>
         </div>
       </div>
       <!-- Nav -->
